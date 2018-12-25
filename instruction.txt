@@ -1,0 +1,4 @@
+https://github.com/dezzfafara/ScienceSoft
+Project can be executed from command line:
+
+mvn clean test
