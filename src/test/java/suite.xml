@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>	
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<parameter name="startUrl" value="https://shop.by" />
+		<parameter name="lenovo" value="Lenovo" />
+		<parameter name="hp" value="HP" />
+		<parameter name="dell" value="Dell" />
+		<parameter name="minPrice" value="700" />
+		<parameter name="maxPrice" value="1500" />
+		<parameter name="minDiagonal" value="12.0" />
+		<parameter name="maxDiagonal" value="13.4" />
+		<classes>
+			<class name="sciencesoft.ShopByTests" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
